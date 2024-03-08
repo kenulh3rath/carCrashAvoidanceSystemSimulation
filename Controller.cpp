@@ -17,6 +17,7 @@ Controller::Controller() {
     if (subjects.size() == 0){
         userLog.emplace_back(getCurrentTime() + " : No data to read found. Adding admin user.");  // user Log
         subjects.emplace_back("admin", " ", "admin", "driver");  // add admin user if no data to read found
+        subjects.emplace_back("John", "Doe", "john", "passenger");  // add passenger user if no data to read found
     }
 }
 

@@ -10,6 +10,7 @@ Authentication::Authentication() {
 
     if (user.empty()) {
         user.insert({"admin", "1234"});  // add admin user if no data to read found
+        user.insert({"john", "1234"});  // add user user if no data to read found
     }
 }
 

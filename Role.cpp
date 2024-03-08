@@ -11,6 +11,7 @@ Role::Role() {
 
     if (userRoleAccessMap.empty()) {
         userRoleAccessMap.insert(pair<string, string>("admin", "driver"));  // add admin user if no data to read found
+        userRoleAccessMap.insert(pair<string, string>("john", "passenger"));  // add user user if no data to read found
 
         // username, role
 //        userRoleAccessMap["admin"] = "driver";
